@@ -1,0 +1,87 @@
+<h4>Productos</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Puntuacion</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Comprador</th>
+            <th scope="col">Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">4.5</th>
+            <td>Computadora ryzen 7</td>
+            <td>Mark Otto</td>
+            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi enim aliquid officia, quisquam, maxime
+                quasi aperiam velit ad cum facilis cupiditate iusto autem eum deserunt aliquam! Expedita eveniet
+                veritatis voluptatibus.</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Placa madre</td>
+            <td>Jacob Thornton</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum reprehenderit veniam
+                dignissimos dolorem? Tempora maiores ab accusantium, cum minima, perferendis eos aliquid sint ipsum
+                neque culpa distinctio quas voluptatem?</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Diodo</td>
+            <td>John Doe</td>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam at reiciendis earum deleniti
+                laboriosam, nesciunt beatae dignissimos, nihil inventore recusandae architecto. Distinctio,
+                perspiciatis. Ducimus et sapiente earum explicabo esse delectus.</td>
+        </tr>
+    </tbody>
+</table>
+<h4>Comenta aqui</h4>
+<form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+        <div class="valid-feedback">
+            correcto!
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+            correcto!
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Correo</label>
+        <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required>
+            <div class="invalid-feedback">
+                Intente de nuevo.
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">Producto</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+            Introduzca de nuevo.
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+                You must agree before submitting.
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+</form>
