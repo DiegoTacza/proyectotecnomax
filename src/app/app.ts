@@ -7,7 +7,7 @@ import { Resenias } from './components/resenias/resenias';
 import { Navegacion } from './components/navegacion/navegacion';
 
 @Component({
-  imports: [RouterOutlet,Navegacion, Inicio, Ofertas, Productos, Resenias],
+  imports: [RouterOutlet, Navegacion, Inicio, Ofertas, Productos, Resenias],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
